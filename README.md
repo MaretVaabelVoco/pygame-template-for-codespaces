@@ -53,43 +53,33 @@ See repo on *template*. Pead tegema sellest endale isikliku koopia:
 ## 🤝 Koostöö paarilisega (Live Share)
 
 Et saaksite samal ajal koodi kirjutada ilma konflikte tekitamata, kasutage Live Share'i:
-
 *Kui sa ei näe vasakul Live Share ikooni, mine **Extensions** sakki (neli ruutu), otsi "Live Share" ja vajuta **Install**.*
 
-1. **Juhataja:** Vajuta VS Code'i vasakus menüüs **Live Share** ikooni (sarnaneb kahe inimesega kujutisele) ja vali "Start collaboration session".
-2. **Kutse:** Kopeeri link ja saada paarilisele.
-3. **Külaline:** Kopeeri juhataja antud link ja kleebi see oma VS Code'i terminali või Live Share'i aknasse või jätkab web vsCode'is. 
-4. **Töötage koos:** Nüüd näete mõlemad sama koodi!
-   * *Märkus:* Ainult juhataja peaks tegema `Commit & Push` või `Sync Changes` muudatusi, et vältida segadust.
-   
-### 👤 Juhend paarilisele (Külaline)
+### 👩‍✈️ Juhataja (Kapten) ülesanded:
+1. Vajuta vasakul menüüs **Live Share** ikooni → **Start collaboration session**.
+2. Kopeeri link ja saada see oma paarilisele.
 
-Sinu paariline on "Juhataja" (Kapten), kes on juba mängu käivitanud. Sinu ülesanne on lihtsalt "laevale" hüpata ja appi tulla. Sa ei pea midagi installima ega seadistama!
+---
 
-        #### 1. Vali, kuidas soovid töötada
-        Külalisena saad liituda kahel viisil. **Vali see, mis sulle rohkem sobib:**
+## 👤 Juhend paarilisele (Külaline)
 
-        * **Variant A: Brauseris (Kõige lihtsam)**
-            * Sa ei pea midagi arvutisse tõmbama.
-            * Lihtsalt ava link (mille paariline sulle saadab) oma internetibrauseris.
-        * **Variant B: VS Code programmis (Kui see on arvutis olemas)**
-            * Kui sul on arvutis VS Code programm juba olemas, võid kasutada seda.
-            * Kui linki avades küsitakse, kas avada see VS Code'is, vajuta **"Open"**.
+> [!IMPORTANT]
+> **Külalise reeglid:** Sina oled "reisija". Sa ei pea midagi installima ega *push*-ima. Sinu eesmärk on aidata juhatajal koodi kirjutada.
 
-        #### 2. Kuidas liituda? (Samm-sammult)
+> [!TIP]
+> **Kuidas liituda?**
+> 1. **Ava link:** Kliki lingile, mille juhataja sulle saatis.
+> 2. **Vali tööviis:**
+>    * **Variant A (Brauser):** Lihtsalt ava link brauseris.
+>    * **Variant B (VS Code):** Kui sul on programm arvutis, vali "Open in VS Code".
+> 3. **Logi sisse:** Vali "Continue with GitHub" ja vajuta "Authorize".
 
-        1.  **Küsi linki:** Palu paariliselt Live Share linki (see on pikk aadress, mille tema sulle saadab).
-        2.  **Ava link:** Kopeeri link oma brauserisse ja vajuta Enter.
-        3.  **Logi sisse:** Kui arvuti küsib, vali **"Continue with GitHub"** ja vajuta rohelist nuppu "Authorize".
-        4.  **Hakka kirjutama:** Nüüd näed oma ekraanil sama koodi, mida paariline. Sinu kursor on teist värvi – see tähendab, et oled sees!
+> [!WARNING]
+> **Mida Külaline EI TOHI teha:**
+> * Ära vajuta "Sync Changes" ega "Commit" nuppe.
+> * Kui pilt hangub, sulge brauser ja küsi juhatajalt uus link.
+> * Kirjutage koodi nii, et te ei hakka samal ajal ühte ja sama rida muutma (see teeb koodi segaseks).
 
-        ---
-
-        #### ⚠️ Reeglid külalisele (Et töö sujuks)
-
-        * **Ära näpi "Source Control" nuppe:** Sina ei pea midagi salvestama, *commit*-ima ega *push*-ima. Juhataja teeb seda ise.
-        * **Ole kooskõlas:** Kirjutage koodi nii, et te ei hakka samal ajal ühte ja sama rida muutma (see teeb koodi segaseks).
-        * **Kui tekib probleem:** Kui koodi kirjutamine ei tööta või pilt hangub, siis lihtsalt sulge brauseriaknad ja küsi paariliselt uus kutse.
 
 
 
@@ -133,7 +123,7 @@ Kui tekib muresid, vaata esmalt siia tabelisse – enamik probleeme on kiiresti 
 | **Ports sakki ei ole** | Vali menüüst `View` → `Terminal`, see toob pordi uuesti nähtavale. |
 | **Error terminalis** | Kopeeri terminalis olev punane veateade ja saada see chatGPT'sse/õpetajale. |
 | **Mäng jooksis kinni** | Vajuta VS Code'i terminalis `CTRL + C`, et protsess lõpetada ja käivita uuesti. |
-
+| **Kui tekib probleem live share'iga** | Kui koodi kirjutamine ei tööta või pilt hangub, siis lihtsalt sulge brauseriaknad ja küsi paariliselt uus kutse/link. |
 ---
 
 ## 🎮 Mis edasi?
